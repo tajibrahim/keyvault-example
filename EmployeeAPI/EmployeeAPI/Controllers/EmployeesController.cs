@@ -47,7 +47,7 @@ namespace EmployeeAPI.Controllers
         {
             try
             {
-                return Ok( await Task.FromResult(_configuration["DBConnection1"]));
+                return Ok( await Task.FromResult(_configuration["DBConnection"]));
                // return Ok(await employeeRepository.GetEmployees());
             }
             catch (Exception)

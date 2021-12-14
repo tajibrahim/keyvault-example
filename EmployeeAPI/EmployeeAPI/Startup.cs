@@ -31,7 +31,7 @@ namespace EmployeeAPI
             services.AddDbContext<EmployeeDBContext>(options =>
                 options
                 //.UseSqlServer(Configuration.GetConnectionString("DBConnection"))
-                .UseSqlServer(Configuration["DBConnection1"])
+                .UseSqlServer(Configuration["DBConnection"])
 
                 ) ;
                         

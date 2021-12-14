@@ -40,6 +40,6 @@ namespace EmployeeAPI
                     webBuilder.UseStartup<Startup>();
                 });
 
-        private static string GetKeyVaultEndpoint() => "https://keyvaulttraning001.vault.azure.net/";
+        private static string GetKeyVaultEndpoint() => "https://keyvaulttraning002.vault.azure.net/";
     }
 }
